@@ -1,9 +1,12 @@
 from django.urls import reverse_lazy
-from django.views.generic import ListView, DetailView
+from django.views.generic import ListView, DetailView, TemplateView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from .models import Post
 
+class IndexView(TemplateView):
+    template_name = 'index.html'
 
+    
 class PostList(ListView):
     model = Post
 
