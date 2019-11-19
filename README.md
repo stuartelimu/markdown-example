@@ -11,6 +11,12 @@ Clone or download this repository to a location on your machine. Change into the
 cd markdown-example
 ```
 
+We are going to revert back to an earlier commit, since this a final repository. Using this command
+
+```
+git reset --hard 58a8c9a5940681a7529cb93cc438c8518b4ea5a3
+```
+
 Create a virtual environment.
 
 ```
@@ -56,4 +62,4 @@ Once that's done you can start the development server and create, edit or delete
 ./manage.py runserver
 ```
 
-You can follow this [article](http//goog.com) for the rest of the instructions.
+You can follow this [article](https://devfolio.herokuapp.com/blog/2019/11/19/add-markdown-your-django-application/) for the rest of the instructions.
