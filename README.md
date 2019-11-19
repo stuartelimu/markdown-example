@@ -1,4 +1,5 @@
-# Add Markdown to your Django Application
+![Markdown Example](Markdown Example · Django.png)
+
 This is a simple project that allows you to view, create, update and delete posts. We are going to make an adjustment such that you can create posts using markdown syntax. 
 
 #### Project setup
